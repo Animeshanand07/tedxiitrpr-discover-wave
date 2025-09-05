@@ -8,18 +8,18 @@ const HeroSection = () => {
     >
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-20 left-20 w-32 h-32 border border-white rounded-full"></div>
-        <div className="absolute bottom-20 right-20 w-48 h-48 border border-accent rounded-full"></div>
-        <div className="absolute top-1/2 left-1/3 w-24 h-24 border border-white rounded-full"></div>
+        <div className="absolute top-20 left-20 w-32 h-32 border border-white/20 rounded-full"></div>
+        <div className="absolute bottom-20 right-20 w-48 h-48 border border-primary/30 rounded-full"></div>
+        <div className="absolute top-1/2 left-1/3 w-24 h-24 border border-white/20 rounded-full"></div>
       </div>
 
       <div className="container mx-auto px-4 text-center relative z-10">
         {/* Main Theme */}
         <div className="animate-fade-in">
-          <h1 className="font-emblema text-6xl md:text-8xl lg:text-9xl font-bold text-white mb-8 tracking-wider">
+          <h1 className="font-emblema text-6xl md:text-8xl lg:text-9xl font-bold text-white mb-8 tracking-wider drop-shadow-2xl">
             AN वेषण
           </h1>
-          <div className="w-24 h-1 bg-accent mx-auto mb-8"></div>
+          <div className="w-32 h-1 bg-primary mx-auto mb-8 shadow-glow"></div>
         </div>
 
         {/* Theme Description */}

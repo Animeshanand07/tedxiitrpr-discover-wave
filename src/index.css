@@ -8,43 +8,43 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* TEDx Brand Colors */
-    --background: 0 0% 100%;
-    --foreground: 0 0% 0%;
+    /* TEDx Brand Colors - Dark theme like IIT Roorkee */
+    --background: 0 0% 8%;
+    --foreground: 0 0% 95%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 0 0% 0%;
+    --card: 0 0% 12%;
+    --card-foreground: 0 0% 95%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 0%;
+    --popover: 0 0% 12%;
+    --popover-foreground: 0 0% 95%;
 
     --primary: 0 84% 60%; /* TEDx Red */
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 0 0% 10%;
-    --secondary-foreground: 0 0% 100%;
+    --secondary: 0 0% 15%;
+    --secondary-foreground: 0 0% 95%;
 
-    --muted: 0 0% 15%;
+    --muted: 0 0% 18%;
     --muted-foreground: 0 0% 65%;
 
-    --accent: 0 0% 0%; /* TEDx Black */
+    --accent: 0 84% 60%; /* TEDx Red */
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 0 0% 90%;
-    --input: 0 0% 90%;
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
     --ring: 0 84% 60%;
 
     --radius: 0.5rem;
     
-    /* Custom gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(0 84% 60%), hsl(0 74% 50%));
-    --gradient-accent: linear-gradient(135deg, hsl(0 0% 0%), hsl(0 0% 20%));
+    /* Custom gradients - Dark red to black gradient like IIT Roorkee */
+    --gradient-primary: linear-gradient(135deg, hsl(0 20% 8%), hsl(0 40% 4%), hsl(0 0% 2%));
+    --gradient-accent: linear-gradient(135deg, hsl(0 84% 60%), hsl(0 74% 50%));
     
     /* Shadows */
-    --shadow-elegant: 0 10px 40px -10px hsl(0 0% 0% / 0.2);
+    --shadow-elegant: 0 10px 40px -10px hsl(0 0% 0% / 0.5);
     --shadow-glow: 0 0 40px hsl(0 84% 60% / 0.4);
 
     --sidebar-background: 0 0% 98%;
@@ -65,23 +65,23 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 0 0% 0%;
-    --foreground: 0 0% 100%;
+    --background: 0 0% 4%;
+    --foreground: 0 0% 98%;
 
-    --card: 0 0% 5%;
-    --card-foreground: 0 0% 100%;
+    --card: 0 0% 8%;
+    --card-foreground: 0 0% 98%;
 
-    --popover: 0 0% 5%;
-    --popover-foreground: 0 0% 100%;
+    --popover: 0 0% 8%;
+    --popover-foreground: 0 0% 98%;
 
-    --primary: 0 0% 100%;
-    --primary-foreground: 0 0% 0%;
+    --primary: 0 84% 60%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 0 0% 10%;
-    --secondary-foreground: 0 0% 100%;
+    --secondary: 0 0% 12%;
+    --secondary-foreground: 0 0% 98%;
 
-    --muted: 0 0% 10%;
-    --muted-foreground: 0 0% 65%;
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 70%;
 
     --accent: 0 84% 60%;
     --accent-foreground: 0 0% 100%;
@@ -89,14 +89,14 @@ All colors MUST be HSL.
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 0 0% 15%;
-    --input: 0 0% 15%;
+    --border: 0 0% 18%;
+    --input: 0 0% 18%;
     --ring: 0 84% 60%;
     
-    --gradient-primary: linear-gradient(135deg, hsl(0 0% 0%), hsl(0 0% 10%));
+    --gradient-primary: linear-gradient(135deg, hsl(0 25% 10%), hsl(0 45% 6%), hsl(0 0% 3%));
     --gradient-accent: linear-gradient(135deg, hsl(0 84% 60%), hsl(0 74% 50%));
-    --shadow-elegant: 0 10px 40px -10px hsl(0 0% 0% / 0.5);
-    --shadow-glow: 0 0 40px hsl(0 84% 60% / 0.4);
+    --shadow-elegant: 0 10px 40px -10px hsl(0 0% 0% / 0.7);
+    --shadow-glow: 0 0 40px hsl(0 84% 60% / 0.5);
   }
 }
 
