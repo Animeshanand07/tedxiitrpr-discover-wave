@@ -30,13 +30,6 @@ const HeroSection = () => {
             and stories worth telling.
           </p>
           
-          <Button 
-            size="lg" 
-            className="bg-accent hover:bg-accent/90 text-white px-8 py-6 text-lg font-semibold shadow-glow transition-all duration-300 hover:shadow-xl"
-            onClick={() => document.getElementById("about")?.scrollIntoView({ behavior: "smooth" })}
-          >
-            Discover More
-          </Button>
         </div>
 
         {/* Event Date */}

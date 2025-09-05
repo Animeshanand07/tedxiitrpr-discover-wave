@@ -1,17 +1,23 @@
 import { Card, CardContent } from "@/components/ui/card";
 import dikshantImage from "@/assets/dikshant.jpg";
 import animeshImage from "@/assets/animesh.jpg";
+import saurabhImage from "@/assets/saurabh.jpg";
+import sanviImage from "@/assets/sanvi.jpg";
+import ommImage from "@/assets/omm.jpg";
+import devImage from "@/assets/dev.jpg";
+import shauryaImage from "@/assets/shaurya.jpg";
+import kaashikaImage from "@/assets/kaashika.jpg";
 
 const AboutSection = () => {
   const teamMembers = [
     { name: "Dikshant Parshar", role: "President, E-Cell IIT Ropar", image: dikshantImage },
     { name: "Animesh Anand", role: "Vice President, E-Cell IIT Ropar", image: animeshImage },
-    { name: "Saurabh Sharma", role: "Ennarators (License)", image: null },
-    { name: "Sanvi Shripad", role: "Ennarators", image: null },
-    { name: "Omm Shree", role: "Secretary, E-Cell IIT Ropar", image: null },
-    { name: "Dev Jain", role: "E-Cell", image: null },
-    { name: "Shaurya Anant", role: "E-Cell", image: null },
-    { name: "Kaashika Gupta", role: "Ennarators Representative", image: null },
+    { name: "Saurabh Sharma", role: "Ennarators (License)", image: saurabhImage },
+    { name: "Sanvi Shripad", role: "Ennarators", image: sanviImage },
+    { name: "Omm Shree", role: "Secretary, E-Cell IIT Ropar", image: ommImage },
+    { name: "Dev Jain", role: "E-Cell", image: devImage },
+    { name: "Shaurya Anant", role: "E-Cell", image: shauryaImage },
+    { name: "Kaashika Gupta", role: "Ennarators Representative", image: kaashikaImage },
   ];
 
   return (
