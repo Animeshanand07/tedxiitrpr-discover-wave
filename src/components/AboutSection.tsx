@@ -6,18 +6,27 @@ import sanviImage from "@/assets/sanvi.jpg";
 import ommImage from "@/assets/omm.jpg";
 import devImage from "@/assets/dev.jpg";
 import shauryaImage from "@/assets/shaurya.jpg";
-import kaashikaImage from "@/assets/kaashika.jpg";
+import varunImage from "@/assets/varun.jpeg";
+import chaitanyaImage from "@/assets/chaitanya.jpg";
+import keshavImage from "@/assets/keshav.jpeg";
+import navneetImage from "@/assets/Navneet.jpg";  
 
 const AboutSection = () => {
   const teamMembers = [
-    { name: "Dikshant Parshar", role: "President, E-Cell IIT Ropar", image: dikshantImage },
-    { name: "Animesh Anand", role: "Vice President, E-Cell IIT Ropar", image: animeshImage },
-    { name: "Saurabh Sharma", role: "Ennarators (License)", image: saurabhImage },
-    { name: "Sanvi Shripad", role: "Ennarators", image: sanviImage },
-    { name: "Omm Shree", role: "Secretary, E-Cell IIT Ropar", image: ommImage },
-    { name: "Dev Jain", role: "E-Cell", image: devImage },
-    { name: "Shaurya Anant", role: "E-Cell", image: shauryaImage },
-    { name: "Kaashika Gupta", role: "Ennarators Representative", image: kaashikaImage },
+    { name: "Dikshant Parshar", role: "Core Team", image: dikshantImage },
+    { name: "Animesh Anand", role: "Core Team", image: animeshImage },
+    { name: "Saurabh Sharma", role: "Core Team(License)", image: saurabhImage },
+    { name: "Sanvi Shripad", role: "Core Team", image: sanviImage },
+    { name: "Omm Shree", role: "Core Team", image: ommImage },
+    { name: "Dev Jain", role: "Core Team", image: devImage },
+    { name: "Shaurya Anant", role: "Core Team", image: shauryaImage },
+    { name: "Chaitanya Kalme", role: "Core Team", image: chaitanyaImage },
+    { name: "Varun Bhardwaj", role: "Core Team", image: varunImage },
+    { name: "Keshav Verma", role: "Core Team", image: keshavImage },
+    { name: "Yash Hatwar", role: "Core Team", image: devImage },
+    { name: "Navneet Kaur", role: "Core Team", image: navneetImage },
+
+
   ];
 
   return (
