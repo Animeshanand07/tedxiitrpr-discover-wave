@@ -78,7 +78,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-accent" />
-                <span className="text-white/80">+91-XXXXXXXXXX</span>
+                <span className="text-white/80">+91-9636864324</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="w-5 h-5 text-accent" />
@@ -97,9 +97,6 @@ const Footer = () => {
               </a>
               <a href="#" className="text-white/80 hover:text-accent transition-colors">
                 <Linkedin className="w-6 h-6" />
-              </a>
-              <a href="#" className="text-white/80 hover:text-accent transition-colors">
-                <Youtube className="w-6 h-6" />
               </a>
             </div>
             <div className="text-white/60 text-sm text-center md:text-right">
