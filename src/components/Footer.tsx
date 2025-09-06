@@ -92,10 +92,17 @@ const Footer = () => {
         <div className="mt-12 pt-8 border-t border-white/20">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex space-x-6 mb-4 md:mb-0">
-              <a href="#" className="text-white/80 hover:text-accent transition-colors">
+              <a 
+                href="https://www.instagram.com/tedxiitropar?igsh=MTJ2Nm5mM2t4bm1xMA==" 
+                className="text-white/80 hover:text-accent transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Instagram className="w-6 h-6" />
               </a>
-              <a href="#" className="text-white/80 hover:text-accent transition-colors">
+              <a href="#" className="text-white/80 hover:text-accent transition-colors"
+                target="_blank"
+                rel="noopener noreferrer">
                 <Linkedin className="w-6 h-6" />
               </a>
             </div>
