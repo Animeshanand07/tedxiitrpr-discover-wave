@@ -17,7 +17,9 @@ const AboutSection = () => {
     { name: "Omm Shree", role: "Secretary, E-Cell IIT Ropar", image: ommImage },
     { name: "Dev Jain", role: "E-Cell", image: devImage },
     { name: "Shaurya Anant", role: "E-Cell", image: shauryaImage },
-    { name: "Kaashika Gupta", role: "Ennarators Representative", image: kaashikaImage },
+    { name: "Varun Bhardwaj", role: "WebD", image: kaashikaImage },
+    { name: "Keshav Verma", role: "WebD", image: kaashikaImage },
+
   ];
 
   return (

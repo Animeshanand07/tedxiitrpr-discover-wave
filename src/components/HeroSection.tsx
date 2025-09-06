@@ -17,7 +17,7 @@ const HeroSection = () => {
         {/* Main Theme */}
         <div className="animate-fade-in">
           <h1 className="font-emblema text-6xl md:text-8xl lg:text-9xl font-bold text-white mb-8 tracking-wider drop-shadow-2xl">
-            AN वेषण
+            ANवेषण
           </h1>
           <div className="w-32 h-1 bg-primary mx-auto mb-8 shadow-glow"></div>
         </div>
@@ -33,7 +33,7 @@ const HeroSection = () => {
         </div>
 
         {/* Event Date */}
-        <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-white/80">
+        <div className="absolute bottom-2 left-1/2 transform -translate-x-1/2 text-white/80">
           <p className="text-lg font-medium">October 5, 2025 • IIT Ropar</p>
         </div>
       </div>

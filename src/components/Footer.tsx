@@ -31,7 +31,7 @@ const Footer = () => {
           {/* Quick Links */}
           <div>
             <h3 className="text-xl font-semibold mb-6">Quick Links</h3>
-            <div className="space-y-3">
+            <div className="space-y-3 flex flex-col">
               <Button
                 variant="ghost"
                 onClick={() => scrollToSection("home")}
@@ -65,24 +65,24 @@ const Footer = () => {
 
           {/* Contact Information */}
           <div>
-            <h3 className="text-xl font-semibold mb-6">Contact Us</h3>
-            <div className="space-y-4">
-              <div className="flex items-center space-x-3">
-                <Mail className="w-5 h-5 text-accent" />
+            <h3 className="text-xl font-semibold mb-6 pl-7">Contact Us</h3>
+            <div className="flex flex-col space-y-4 ">
+              <div className="flex items-center gap-3">
+                <Mail className="w-5 h-5 text-accent flex-shrink-0" />
                 <a 
                   href="mailto:tedxiitrpr@gmail.com" 
-                  className="text-white/80 hover:text-accent transition-colors"
+                  className="text-white/80 hover:text-accent transition-colors break-all text-left"
                 >
                   tedxiitrpr@gmail.com
                 </a>
               </div>
-              <div className="flex items-center space-x-3">
-                <Phone className="w-5 h-5 text-accent" />
-                <span className="text-white/80">+91-XXXXXXXXXX</span>
+              <div className="flex items-center gap-3">
+                <Phone className="w-5 h-5 text-accent flex-shrink-0" />
+                <span className="text-white/80 text-left">+91-XXXXXXXXXX</span>
               </div>
-              <div className="flex items-center space-x-3">
-                <MapPin className="w-5 h-5 text-accent" />
-                <span className="text-white/80">IIT Ropar, Punjab</span>
+              <div className="flex items-center gap-3">
+                <MapPin className="w-5 h-5 text-accent flex-shrink-0" />
+                <span className="text-white/80 text-left">IIT Ropar, Punjab</span>
               </div>
             </div>
           </div>
