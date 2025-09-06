@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import dikshantImage from "@/assets/dikshant.jpg";
 import animeshImage from "@/assets/animesh.jpg";
@@ -25,9 +26,17 @@ const AboutSection = () => {
     { name: "Keshav Verma", role: "Core Team", image: keshavImage },
     { name: "Yash Hatwar", role: "Core Team", image: devImage },
     { name: "Navneet Kaur", role: "Core Team", image: navneetImage },
-
-
   ];
+
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const prevMember = () => {
+    setCurrentIndex((prev) => (prev === 0 ? teamMembers.length - 1 : prev - 1));
+  };
+
+  const nextMember = () => {
+    setCurrentIndex((prev) => (prev === teamMembers.length - 1 ? 0 : prev + 1));
+  };
 
   return (
     <section id="about" className="py-20 bg-background">
@@ -36,7 +45,6 @@ const AboutSection = () => {
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">About Us</h2>
           <div className="w-24 h-1 bg-accent mx-auto mb-8"></div>
-          
           <div className="max-w-4xl mx-auto">
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8">
               TEDxIITRopar is a historic milestone as TEDx is happening for the first time ever at IIT Ropar. 
@@ -72,13 +80,51 @@ const AboutSection = () => {
           </Card>
         </div>
 
-        {/* Team Section */}
-        <div className="text-center mb-12">
+        {/* Team Slideshow */}
+        <div className="flex flex-col items-center mb-12">
           <h3 className="text-3xl md:text-4xl font-bold text-primary mb-4">Meet Our Team</h3>
-          <div className="w-16 h-1 bg-accent mx-auto"></div>
+          <div className="w-16 h-1 bg-accent mx-auto mb-6"></div>
+          <div className="flex items-center space-x-6">
+            <button
+              onClick={prevMember}
+              className="bg-accent text-white px-5 py-4 rounded-full hover:bg-primary transition flex items-center justify-center"
+              aria-label="Previous"
+            >
+              <span className="text-4xl leading-none">&#8592;</span>
+            </button>
+            <div className="text-center">
+              <div className="w-60 h-60 mx-auto mb-4 rounded-full overflow-hidden bg-muted">
+                {teamMembers[currentIndex].image ? (
+                  <img
+                    src={teamMembers[currentIndex].image}
+                    alt={teamMembers[currentIndex].name}
+                    className="w-full h-full object-cover"
+                  />
+                ) : (
+                  <div className="w-full h-full bg-gradient-accent flex items-center justify-center text-white font-bold text-xl">
+                    {teamMembers[currentIndex].name.split(' ').map(n => n[0]).join('')}
+                  </div>
+                )}
+              </div>
+              <h4 className="text-lg font-semibold text-primary mb-2">
+                {teamMembers[currentIndex].name}
+              </h4>
+              <p className="text-sm text-muted-foreground">
+                {teamMembers[currentIndex].role}
+              </p>
+            </div>
+            <button
+              onClick={nextMember}
+              className="bg-accent text-white px-5 py-4 rounded-full hover:bg-primary transition flex items-center justify-center"
+              aria-label="Next"
+            >
+              <span className="text-4xl leading-none">&#8594;</span>
+            </button>
+          </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        {/* Team Grid */}
+        {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {teamMembers.map((member, index) => (
             <Card key={index} className="shadow-elegant hover:shadow-glow transition-all duration-300 group">
               <CardContent className="p-6 text-center">
@@ -100,7 +146,7 @@ const AboutSection = () => {
               </CardContent>
             </Card>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );
