@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import dikshantImage from "@/assets/dikshant.jpg";
 import animeshImage from "@/assets/animesh.jpg";
-import saurabhImage from "@/assets/saurabh.jpg";
+import saurabhImage from "@/assets/Saurabh.jpg";
 import sanviImage from "@/assets/sanvi.jpg";
 import ommImage from "@/assets/omm.jpg";
 import devImage from "@/assets/dev.jpg";
