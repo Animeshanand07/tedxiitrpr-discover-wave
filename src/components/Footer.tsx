@@ -31,7 +31,7 @@ const Footer = () => {
           {/* Quick Links */}
           <div>
             <h3 className="text-xl font-semibold mb-6">Quick Links</h3>
-            <div className="space-y-3">
+            <div className="space-y-3 flex flex-col">
               <Button
                 variant="ghost"
                 onClick={() => scrollToSection("home")}
@@ -65,7 +65,7 @@ const Footer = () => {
 
           {/* Contact Information */}
           <div>
-            <h3 className="text-xl font-semibold mb-6">Contact Us</h3>
+            <h3 className="text-xl font-semibold mb-6 pl-7">Contact Us</h3>
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-accent" />
@@ -78,7 +78,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-accent" />
-                <span className="text-white/80">+91-XXXXXXXXXX</span>
+                <span className="text-white/80">+91-9636864324</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="w-5 h-5 text-accent" />
@@ -97,9 +97,6 @@ const Footer = () => {
               </a>
               <a href="#" className="text-white/80 hover:text-accent transition-colors">
                 <Linkedin className="w-6 h-6" />
-              </a>
-              <a href="#" className="text-white/80 hover:text-accent transition-colors">
-                <Youtube className="w-6 h-6" />
               </a>
             </div>
             <div className="text-white/60 text-sm text-center md:text-right">
