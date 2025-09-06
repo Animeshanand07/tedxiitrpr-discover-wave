@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 
 const HeroSection = () => {
   return (
@@ -24,18 +23,17 @@ const HeroSection = () => {
 
         {/* Theme Description */}
         <div className="animate-slide-up max-w-4xl mx-auto">
-          <p className="text-xl md:text-2xl text-white/90 mb-12 leading-relaxed">
-            Embark on a journey of exploration and discovery. AN वेषण represents the eternal human spirit of curiosity, 
-            the quest for knowledge, and the courage to venture into the unknown. Join us as we uncover ideas worth spreading 
+          <p className="text-xl md:text-2xl text-white/90 mb-6 leading-relaxed">
+            Embark on a journey of exploration and discovery. ANवेषण represents the eternal human spirit of curiosity,
+            the quest for knowledge, and the courage to venture into the unknown. Join us as we uncover ideas worth spreading
             and stories worth telling.
           </p>
-          
         </div>
 
-        {/* Event Date */}
-        <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-white/80">
-          <p className="text-lg font-medium">October 5, 2025 • IIT Ropar</p>
-        </div>
+        {/* Event Date – now in normal flow, no overlap */}
+        <p className="mt-6 text-md text-gray-400">
+          October 5, 2025 | IIT Ropar
+        </p>
       </div>
     </section>
   );
