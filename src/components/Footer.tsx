@@ -31,7 +31,7 @@ const Footer = () => {
           {/* Quick Links */}
           <div>
             <h3 className="text-xl font-semibold mb-6">Quick Links</h3>
-            <div className="space-y-3">
+            <div className="space-y-3 flex flex-col">
               <Button
                 variant="ghost"
                 onClick={() => scrollToSection("home")}
@@ -65,7 +65,7 @@ const Footer = () => {
 
           {/* Contact Information */}
           <div>
-            <h3 className="text-xl font-semibold mb-6">Contact Us</h3>
+            <h3 className="text-xl font-semibold mb-6 pl-7">Contact Us</h3>
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-accent" />
