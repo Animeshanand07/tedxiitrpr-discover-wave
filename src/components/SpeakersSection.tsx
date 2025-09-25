@@ -3,32 +3,32 @@ import { Card, CardContent } from "@/components/ui/card";
 const SpeakersSection = () => {
   const speakers = [
     {
-      name: "Dr. Sarah Johnson",
+      name: "Bharulata",
       description: "A pioneering researcher in sustainable technology, Dr. Johnson has revolutionized how we think about renewable energy systems. Her work bridges the gap between cutting-edge innovation and practical implementation for a greener future.",
       category: "Technology",
     },
     {
-      name: "Rajesh Kumar",
+      name: "Akshay",
       description: "Master artist and cultural ambassador who seamlessly blends centuries-old Indian traditions with contemporary artistic expressions. His work celebrates cultural heritage while pushing the boundaries of modern creativity.",
       category: "Arts & Culture",
     },
     {
-      name: "Prof. Maria Rodriguez",
+      name: "Purvi Roy",
       description: "Leading AI researcher and ethics advocate whose groundbreaking work in machine learning is shaping the future of human-computer interaction. She explores how AI can amplify human potential while preserving our humanity.",
       category: "Science",
     },
     {
-      name: "Ankit Sharma",
+      name: "Lt Gen Mahal Sir",
       description: "Serial entrepreneur and startup mentor who has built multiple successful tech companies. He shares insights on navigating the digital landscape and turning innovative ideas into impactful businesses.",
       category: "Business",
     },
     {
-      name: "Dr. Priya Patel",
+      name: "Munish Jindal",
       description: "Mental health advocate and social innovator working to destigmatize mental wellness. Her community-based approach has transformed how we understand and address mental health challenges in modern society.",
       category: "Health",
     },
     {
-      name: "Vikram Singh",
+      name: "Sonali sharma",
       description: "Former ISRO scientist and space exploration enthusiast who played a key role in India's Mars mission. He shares the incredible journey of space exploration and India's growing presence in the cosmos.",
       category: "Space",
     },

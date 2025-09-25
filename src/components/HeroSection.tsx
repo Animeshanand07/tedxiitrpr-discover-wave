@@ -24,10 +24,10 @@ const HeroSection = () => {
 
         {/* Theme Description */}
         <div className="animate-slide-up max-w-4xl mx-auto">
+          
           <p className="text-xl md:text-2xl text-white/90 mb-12 leading-relaxed">
-            Embark on a journey of exploration and discovery. ANवेषण represents the eternal human spirit of curiosity, 
-            the quest for knowledge, and the courage to venture into the unknown. Join us as we uncover ideas worth spreading 
-            and stories worth telling.
+          <p>WE ARE TEDxIITROPAR</p>
+            Being at the forefront of technological development, we blend the power of ideas and skill development. The stage where boundaries are pushed with every single thought and idea. Explore new developments in various fields and embrace a new mindset.
           </p>
           
         </div>

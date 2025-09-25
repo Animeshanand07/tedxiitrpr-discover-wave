@@ -47,9 +47,7 @@ const AboutSection = () => {
           <div className="w-24 h-1 bg-accent mx-auto mb-8"></div>
           <div className="max-w-4xl mx-auto">
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8">
-              TEDxIITRopar is a historic milestone as TEDx is happening for the first time ever at IIT Ropar. 
-              Organized by E-Cell & TBIF in collaboration with Ennarators, this event promises to bring together 
-              ideas worth spreading and voices worth hearing.
+              TEDxIITROPAR is a part of a larger TEDx network, meaning we’re an independently organized event licensed by TED. TEDx is a program of local, self-organized events that bring people together to share a TED-like experience.
             </p>
           </div>
         </div>

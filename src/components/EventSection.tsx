@@ -32,7 +32,12 @@ const EventSection = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">Event Highlights</h2>
           <div className="w-24 h-1 bg-accent mx-auto mb-8"></div>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            A day filled with thought-provoking talks, inspiring performances, and transformative ideas.
+            <p>Local Communities bringing Global Changes</p>
+             
+           We believe in the power of ideas. It is a small thought that grows into a full-blown project, which goes on to affect the world. Through our inspiring and innovative talks, we provide a platform for those with ideas and also spark new ideas among the audience. 
+
+We come together to represent our local community, learn, and sow the seed of curiosity.
+
           </p>
         </div>
 
