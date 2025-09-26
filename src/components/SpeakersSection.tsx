@@ -7,6 +7,11 @@ const SpeakersSection = () => {
       description: "A pioneering researcher in sustainable technology, Dr. Johnson has revolutionized how we think about renewable energy systems. Her work bridges the gap between cutting-edge innovation and practical implementation for a greener future.",
       category: "Technology",
     },
+
+
+
+
+
     {
       name: "Akshay",
       description: "Master artist and cultural ambassador who seamlessly blends centuries-old Indian traditions with contemporary artistic expressions. His work celebrates cultural heritage while pushing the boundaries of modern creativity.",
@@ -32,6 +37,16 @@ const SpeakersSection = () => {
       description: "Former ISRO scientist and space exploration enthusiast who played a key role in India's Mars mission. He shares the incredible journey of space exploration and India's growing presence in the cosmos.",
       category: "Space",
     },
+     {
+      name: "Dr. Dibyakusum Ray",
+      description: "Master artist and cultural ambassador who seamlessly blends centuries-old Indian traditions with contemporary artistic expressions. His work celebrates cultural heritage while pushing the boundaries of modern creativity.",
+      category: "Arts & Culture",
+    },
+     {
+      name: "Saakshar Duggal",
+      description: "Master artist and cultural ambassador who seamlessly blends centuries-old Indian traditions with contemporary artistic expressions. His work celebrates cultural heritage while pushing the boundaries of modern creativity.",
+      category: "Arts & Culture",
+    },
   ];
 
   return (
@@ -45,7 +60,7 @@ const SpeakersSection = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {speakers.map((speaker, index) => (
             <Card key={index} className="shadow-elegant hover:shadow-glow transition-all duration-300 group">
               <CardContent className="p-0">
