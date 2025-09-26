@@ -23,14 +23,19 @@ const HeroSection = () => {
         </div>
 
         {/* Theme Description */}
-        <div className="animate-slide-up max-w-4xl mx-auto">
-          
-          <p className="text-xl md:text-2xl text-white/90 mb-12 leading-relaxed">
-          <p>WE ARE TEDxIITROPAR</p>
+         <div className="animate-slide-up max-w-4xl mx-auto mb-24">
+          <p className="text-xl md:text-2xl text-white/90 leading-relaxed">
+            <span className="block font-semibold mb-2">WE ARE TEDxIITROPAR</span>
             Being at the forefront of technological development, we blend the power of ideas and skill development. The stage where boundaries are pushed with every single thought and idea. Explore new developments in various fields and embrace a new mindset.
           </p>
-          
         </div>
+
+
+
+
+
+
+
 
         {/* Event Date */}
         <div className="absolute bottom-2 left-1/2 transform -translate-x-1/2 text-white/80">
